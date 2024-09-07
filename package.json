@@ -1,0 +1,20 @@
+{
+  "name": "tradutor_frases_libras",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "cd app && http-server -c-1 -p 7001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "http-server": "^14.1.1",
+    "puppeteer": "^23.3.0"
+  }
+}

@@ -1,0 +1,26 @@
+-a que se propõe a página ×
+
+-o que é a linguagem se sinais ×
+
+-os sistemas precursores ×
+
+-como funciona a linguagem Libras: ×
+    não é só traduzir do português ×
+    escreva os verbos no infinitvo ×
+    o tempo do verbo é indicao pelo tempo em que aconteceu a frase ×
+    regras de português sujeito e predicado ×
+    artigos, advérbios e adjetivos ×
+    uma estrutura simples que vai facilitar o aprendizado ×
+
+-como se apresentar em libras ×
+
+-como aprender mais (fontes) ×
+
+-créditos: eu não sou o responsável pelas imagens e o dicionário
+
+### futuros updates 
+
+-tradutor de libras scrapper do dicionário
+-criar uma select para frases ou nome próprio
+-frases
+    separar sujeito de predicado

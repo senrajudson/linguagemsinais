@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagem e inclusão</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body class="body">
+        <header>
+            <h1 id="pagename" class="h1"><a href="#" onclick="resetPage()">As linguagens de sinais</a></h1>
+            <section id="missao" class="item-resultado missao">
+                <h2>Missão</h2>
+                <p>O objetivo dessa página é ajudar as pessoas a conhecer um pouco mais sobre os sistemas de linguagem de sinais e um pouco da sua história, bem como a nossa linguagem brasileira de sinais, Libras. Também vou estar compartilhando um pouco da minha experiência empírica estudando a linguagem.</p>
+                <ol>Tópicos desta página
+                    <li>O que é a linguagem de sinais</li>
+                    <li>A linguagem de sinais no mundo</li>
+                    <li>A linguagem de sinais no Brasil</li>
+                    <li>Como funciona?
+                        <ul>
+                            <li>Não é só traduzir do português</li>
+                            <li>Expressão corporal</li>
+                            <li>Conjugação verbal</li>
+                            <li>Advérbios, adjetivos e artigos</li>
+                            <li>Simplificando</li>
+                        </ul>
+                    </li>
+                    <li>Fim
+                        <ul>
+                            <li>Se apresentando</li>
+                        </ul>
+                    </li>
+                    <li>Créditos</li>
+                </ol>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <label for="input">
+                    <input id="campo-pesquisa" placeholder="Faça uma busca por tópico ou subtópico">
+                    <button onclick="pesquisar()">Pesquisar</button>
+                </label>
+            </section>
+
+            <section id="resultados-pesquisa" class="resultados-pesquisa results">
+            </section>
+
+        </main>
+        <!-- <button id="scrapeButton">Realizar Scraping</button>         -->
+</body>
+
+<footer>
+    <p>senrajudson &copy; 2024</p>
+</footer>
+<script>
+    function resetPage() {
+        window.location.reload();  // Recarrega a página atual
+    }
+</script>
+<script src="./script.js"></script>
+<script src="./dados.js"></script>
+</html>
+
