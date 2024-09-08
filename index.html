@@ -10,6 +10,13 @@
 <body class="body">
         <header>
             <h1 id="pagename" class="h1"><a href="#" onclick="resetPage()">As linguagens de sinais</a></h1>
+        </header>
+
+        <main>
+            <section>
+                    <input id="campo-pesquisa" placeholder="Faça uma busca por tópico ou subtópico">
+                    <button onclick="pesquisar()">Pesquisar</button>
+            </section>
             <section id="missao" class="item-resultado missao">
                 <h2>Missão</h2>
                 <p>O objetivo dessa página é ajudar as pessoas a conhecer um pouco mais sobre os sistemas de linguagem de sinais e um pouco da sua história, bem como a nossa linguagem brasileira de sinais, Libras. Também vou estar compartilhando um pouco da minha experiência empírica estudando a linguagem.</p>
@@ -34,14 +41,6 @@
                     <li>Créditos</li>
                 </ol>
             </section>
-        </header>
-
-        <main>
-            <section>
-                    <input id="campo-pesquisa" placeholder="Faça uma busca por tópico ou subtópico">
-                    <button onclick="pesquisar()">Pesquisar</button>
-            </section>
-
             <section id="resultados-pesquisa" class="resultados-pesquisa results">
             </section>
 
